@@ -1,6 +1,14 @@
-# AWS Observability Platform
+# AWS Plataforma de observabilidade 
 
 Plataforma de observabilidade orientada a eventos utilizando serviços da AWS com infraestrutura provisionada via Terraform.
+
+Plataforma de observabilidade desenvolvida na AWS utilizando Terraform para provisionamento da infraestrutura.
+
+O projeto simula um ambiente monitorado em cloud, coletando logs de uma instância EC2, transformando esses logs em métricas no CloudWatch e acionando alarmes automáticos com notificações por email.
+
+A arquitetura utiliza serviços como CloudWatch Logs, Metric Filters, CloudWatch Alarms, EventBridge, Lambda, SNS e CloudWatch Dashboard para demonstrar conceitos de monitoramento, observabilidade, automação e infraestrutura como código (IaC).
+
+O objetivo do projeto é demonstrar na prática como funciona um fluxo completo de observabilidade em ambientes cloud utilizando serviços da AWS.
 
 ---
 
