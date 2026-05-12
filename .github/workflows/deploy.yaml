@@ -1,4 +1,4 @@
-name: Terraform Apply
+name: Manual Deploy Dashboard
 
 on:
   workflow_dispatch:
